@@ -20,7 +20,8 @@ namespace :cart do
   CP            = '/bin/cp'
   INSTALL       = '/usr/bin/install'
   DITTO         = '/usr/bin/ditto'
-  PACKAGEMAKER  = '/Developer/usr/bin/packagemaker'
+  PKGBUILD      = '/usr/bin/pkgbuild'
+  PRODUCTBUILD  = '/usr/bin/productbuild'
 
   # Plist options
   @plist_flavor      = 'plist'
