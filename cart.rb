@@ -6,7 +6,7 @@ namespace :cart do
 
   # Time Constants 
   DATE          = Time.new
-  STAMP         = DATE.strftime("%Y%m%d")
+  STAMP         = DATE.strftime("%Y.%m.%d")
   YY            = DATE.year
   MM            = DATE.month
   DD            = DATE.day
